@@ -1,0 +1,29 @@
+---
+layout: code1107
+title: "문제 1107 반복문을 이용하여 별모양 출력"
+---
+import java.util.*;
+
+public class Main{
+
+	public static void main(String args[]){
+  
+		Scanner cin = new Scanner(System.in);
+    
+	    int last = cin.nextInt();     
+	    
+	     for(int k=1; k<=last;k++) {
+       
+			for(int i=0; i<k; i++) {
+      
+				System.out.print("*");
+        
+			}
+      
+			System.out.println("");
+      
+		}
+		
+	}
+  
+}
